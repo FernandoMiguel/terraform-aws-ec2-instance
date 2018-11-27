@@ -33,9 +33,9 @@ module "ec2_cluster" {
 
 * [Basic EC2 instance](https://github.com/terraform-aws-modules/terraform-aws-ec2-instance/tree/master/examples/basic)
 
-## Make an encrypted ami for use
+## Make an encrypted AMI for use
 
-This module does not sopport encrypted AMI's out of the box however it is easy enough for you to generate one for use
+This module does not support encrypted AMI's out of the box however it is easy enough for you to generate one for use
 
 This example creates an encrypted image from the latest ubuntu 16.04 base image.
 
